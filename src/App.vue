@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TimeSheetCheck/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TimeSheetCheck from './views/TimeSheetCheck.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TimeSheetCheck
   }
 }
 </script>
